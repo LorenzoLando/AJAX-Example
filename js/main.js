@@ -15,10 +15,7 @@ btn.addEventListener("click", function(){
 		renderHTML(ourData);
 	};
 
-	ourRequest.onerror(function(){
-		alert("OPPPPS that has been an error!");
-	});
-
+	
 	//inviamo la richiesta una volta definita
 	ourRequest.send();
 	pageCounter++;
